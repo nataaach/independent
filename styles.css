@@ -1,0 +1,184 @@
+/* Загальний стиль для параграфів з класом "special-paragraph" */
+p.special-paragraph {
+    color: red;
+    text-align: center;
+    background-color: yellow; /* Застосувати фон тільки до спеціальних параграфів */
+}
+
+/* Стиль для елементів з класом "center" */
+.center {
+    text-align: center;
+    color: red;
+}
+
+/* Стиль для елементів з класом "large" */
+.large {
+    font-size: 300%;
+}
+
+/* Стиль для параграфа з id "para1" */
+#para1 {
+    text-align: center;
+    color: blue; /* Змінюємо колір для параграфа #para1 */
+}
+
+/* Стиль для заголовків з класом "special-header" */
+h1.special-header, h2.special-header {
+    text-align: center;
+    color: black; /* Заголовки чорного кольору */
+    background-color: green; /* Фон тільки для спеціальних заголовків */
+}
+
+/* Стиль для тіла з класом "special-body" */
+.special-body {
+    background-color: lightblue; /* Фон тільки для тіла з цим класом */
+}
+
+/* Стиль для div з класом "special-div" */
+.special-div {
+    background-color: lightblue; /* Застосувати фон тільки до певних div */
+}
+body {
+    background-color: lightblue; /* Блакитний фон для всієї сторінки */
+    margin: 0; /* Видаляє стандартні відступи */
+    font-family: Arial, sans-serif; /* Задає шрифт для тексту */
+}
+.background-paragraph {
+    padding: 10px; /* Додає відступи всередині параграфа */
+}
+body {
+    font-family: Arial, sans-serif; /* Загальний шрифт для сторінки */
+}
+
+.w3-container {
+    padding: 20px; /* Внутрішні відступи для контейнерів */
+}
+
+.w3-border {
+    border-style: solid; /* Тип межі */
+}
+
+.w3-border-black {
+    border-color: black; /* Чорний колір межі */
+}
+
+.w3-border-red {
+    border-color: red; /* Червоний колір межі */
+}
+
+.w3-round-xlarge {
+    border-radius: 25px; /* Округлі межі */
+}
+
+.w3-pale-blue {
+    background-color: #D6E9F9; /* Світло-блакитний фон */
+}
+
+.w3-leftbar {
+    border-left: 5px solid blue; /* Синя ліва межа */
+}
+
+.w3-margin-top {
+    margin-top: 20px; /* Відступ зверху */
+}
+div {
+    border: 1px solid black; /* Чорна межа */
+    background-color: lightblue; /* Світло-блакитний фон */
+    padding-top: 50px; /* Верхній відступ */
+    padding-right: 30px; /* Правий відступ */
+    padding-bottom: 50px; /* Нижній відступ */
+    padding-left: 80px; /* Лівий відступ */
+}
+div {
+    border: 1px solid black; /* Чорна межа */
+    padding: 25px 50px 75px 100px; /* Відступи: верхній, правий, нижній, лівий */
+    background-color: lightblue; /* Світло-блакитний фон */
+}
+div.ex1 {
+    width: 300px; /* Ширина 300 пікселів */
+    background-color: yellow; /* Жовтий фон */
+}
+
+div.ex2 {
+    width: 300px; /* Ширина 300 пікселів */
+    padding: 25px; /* Внутрішні відступи 25 пікселів */
+    background-color: lightblue; /* Світло-блакитний фон */
+}
+div {
+    height: 200px; 
+    width: 50%; 
+    background-color: powderblue; 
+}
+div {
+    height: 100px; 
+    width: 500px;
+    background-color: powderblue; 
+}
+div {
+    background-color: lightgrey; 
+    width: 300px; 
+    border: 15px solid green; 
+    padding: 50px; 
+    margin: 20px; 
+}
+a:link {
+    color: red; /* Червоний колір для неперейдених посилань */
+}
+
+/* перейдена посилання */
+a:visited {
+    color: green; /* Зелений колір для перейдених посилань */
+}
+
+/* мишка над посиланням */
+a:hover {
+    color: hotpink; /* Яскраво-рожевий колір при наведенні */
+}
+
+/* вибране посилання */
+a:active {
+    color: blue; /* Синій колір при активному натисканні */
+}
+/* Неперейдена посилання */
+a:link {
+    text-decoration: none; /* Без підкреслення для неперейдених посилань */
+}
+
+/* Перейдена посилання */
+a:visited {
+    text-decoration: none; /* Без підкреслення для перейдених посилань */
+}
+
+/* Мишка над посиланням */
+a:hover {
+    text-decoration: underline; /* Підкреслення при наведенні */
+}
+
+/* Вибране посилання */
+a:active {
+    text-decoration: underline; /* Підкреслення при активному натисканні */
+}
+/* Невпорядковані списки */
+ul.a {
+    list-style-type: circle; /* Круглі маркери */
+}
+
+ul.b {
+    list-style-type: square; /* Квадратні маркери */
+}
+
+/* Упорядковані списки */
+ol.c {
+    list-style-type: upper-roman; /* Верхній римський стиль */
+}
+
+ol.d {
+    list-style-type: lower-alpha; /* Нижній алфавітний стиль */
+}
+ul.a {
+    list-style-position: outside; /* За замовчуванням: маркери зовні */
+}
+
+ul.b {
+    list-style-position: inside; /* Маркери всередині */
+}
