@@ -182,3 +182,312 @@ ul.a {
 ul.b {
     list-style-position: inside; /* Маркери всередині */
 }
+.styled-table {
+    border-collapse: collapse;
+    width: 100%; 
+  }
+  
+  .styled-table th, .styled-table td {
+    border: 1px solid black;
+    padding: 8px; 
+  }
+  
+  .styled-table th {
+    background-color: #f2f2f2; 
+  }
+  .full-width-table {
+    width: 100%;
+    border-collapse: collapse; 
+  }
+  
+  .full-width-table, 
+  .full-width-table th, 
+  .full-width-table td {
+    border: 1px solid black; 
+  }
+  
+  .full-width-table th, 
+  .full-width-table td {
+    padding: 8px; 
+  }
+  
+  .full-width-table th {
+    background-color: #f2f2f2; 
+  }
+  .bordered-table {
+    width: 100%;
+    border-collapse: collapse; 
+  }
+  
+  .bordered-table, 
+  .bordered-table th, 
+  .bordered-table td {
+    border: 1px solid black; 
+    padding: 8px; 
+  }
+  
+  .bordered-table th {
+    background-color: #f2f2f2;
+  }
+  .custom-table, 
+.custom-table td, 
+.custom-table th {
+  border: 1px solid black; 
+}
+
+.custom-table {
+  border-collapse: collapse; 
+  width: 100%; 
+
+.custom-table th {
+  height: 70px;
+}
+.centered-table, 
+.centered-table td, 
+.centered-table th {
+  border: 1px solid black; 
+}
+
+.centered-table {
+  border-collapse: collapse; 
+  width: 100%; 
+}
+
+.centered-table td, 
+.centered-table th {
+  text-align: center; 
+}
+.bordered-table {
+    border-collapse: collapse; 
+    width: 100%; 
+  }
+  
+  .bordered-table th, 
+  .bordered-table td {
+    padding: 8px; 
+    text-align: left; 
+    border-bottom: 1px solid #ddd; 
+  }
+  .striped-table {
+    border-collapse: collapse; 
+    width: 100%; 
+  }
+  
+  .striped-table th, 
+  .striped-table td {
+    text-align: left;
+    padding: 8px; 
+  }
+  
+  .striped-table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }
+  .responsive-table {
+    border-collapse: collapse; 
+    width: 100%; 
+  }
+  
+  .responsive-table th, 
+  .responsive-table td {
+    text-align: left; 
+    padding: 8px;
+  }
+  
+  .responsive-table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }
+  div {
+    width: 100px; /* Ширина квадрата */
+    height: 100px; /* Висота квадрата */
+    background-color: red; /* Початковий колір */
+    animation-name: example; /* Назва анімації */
+    animation-duration: 4s; /* Тривалість анімації */
+    animation-iteration-count: infinite; /* Безкінечне повторення анімації */
+}
+
+@keyframes example {
+    from { background-color: red; } /* Початковий колір */
+    to { background-color: yellow; } /* Кінцевий колір */
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button1 {border-radius: 2px;}
+  .button2 {border-radius: 4px;}
+  .button3 {border-radius: 8px;}
+  .button4 {border-radius: 12px;}
+  .button5 {border-radius: 50%;}
+  .button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+  }
+  
+  .button1:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+  }
+  
+  .button3:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+  }
+  
+  .button4:hover {background-color: #e7e7e7;}
+  
+  .button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+  .button5:hover {
+    background-color: #555555;
+    color: white;
+  }
+  .button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button1 {width: 250px;}
+  .button2 {width: 50%;}
+  .button3 {width: 100%;}
+  .btn-group .button {
+    background-color: #04AA6D; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+  }
+  
+  .btn-group .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+   
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  .newspaper {
+    column-count: 3;
+  }
+  {
+    background-image: url("paper.gif");
+  }
+  
+  div.ex1 { 
+    background-color: lightgreen;
+    border: 2px solid black;
+    padding: 15px;
+  }
+  
+  div.ex2 { 
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 15px;
+  } 
+  div {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5); /* Додайте розмиття та колір */
+}

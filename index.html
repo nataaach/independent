@@ -792,7 +792,336 @@
     <li>Чай - ароматний напій, який зазвичай готують, заливаючи гарячою або киплячою водою висушені листя Camellia sinensis, вічнозеленого куща, що росте в Азії.</li>
     <li>Coca Cola - газований безалкогольний напій, що виробляється компанією The Coca-Cola Company. Назва напою пов'язана з двома його вихідними інгредієнтами: горіхами кола (джерело кофеїну) та листям коки.</li>
 </ul>
+<h2>CSS Таблиці</h2>
+<h2>Добавити границю до таблиці:</h2>
 
+<table class="styled-table">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td> 
+    <td>Griffin</td>
+  </tr>
+</table>
+<h2>Таблиця на всю ширину</h2>
+
+<table class="full-width-table">
+  <tr>
+    <th>Имя</th>
+    <th>Фамилия</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+<h2>Границя буде згорнута</h2>
+
+<table class="bordered-table">
+  <tr>
+    <th>Ім'я</th>
+    <th>Прізвище</th>
+  </tr>
+  <tr>
+    <td>Володька</td>
+    <td>Зеленський</td>
+  </tr>
+  <tr>
+    <td>Васька</td>
+    <td>Голобородько</td>
+  </tr>
+</table>
+<h2>CSS Table Size</h2>
+<h2>Властивості ширини та висоти</h2>
+
+<p>Встановіть ширину таблиці та висоту заголовка таблиці:</p>
+
+<table class="custom-table">
+  <tr>
+    <th>Ім'я</th>
+    <th>Прізвище</th>
+    <th>Збереження</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td>$150</td>
+  </tr>
+  <tr>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td>$250</td>
+  </tr>
+</table>
+<h2>Вирівнювання таблиці</h2>
+<h2>Властивість text-align</h2>
+
+<p>Ця властивість задає горизонтальне вирівнювання (ліворуч, праворуч або по центру) в th або td.</p>
+
+<table class="centered-table">
+  <tr>
+    <th>Ім'я</th>
+    <th>Прізвище</th>
+    <th>Збереження</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td>$150</td>
+  </tr>
+  <tr>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td>$250</td>
+  </tr>
+</table>
+<h2>Границя таблиці з роздільниками</h2>
+
+<table class="bordered-table">
+  <tr>
+    <th>Ім'я</th>
+    <th>Прізвище</th>
+    <th>Збереження</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td>$150</td>
+  </tr>
+  <tr>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td>$250</td>
+  </tr>
+</table>
+<h2>Смугаста таблиця</h2>
+<table class="striped-table">
+  <tr>
+    <th>Ім'я</th>
+    <th>Прізвище</th>
+    <th>Очки</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td>$150</td>
+  </tr>
+  <tr>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td>$250</td>
+  </tr>
+</table>
+<h2>Адаптивна таблиця</h2>
+<p>Адаптивна таблиця буде відображати горизонтальну смугу прокрутки, якщо екран занадто малий, щоб відобразити весь вміст. Змініть розмір вікна браузера, щоб побачити ефект:</p>
+<p>Для створення адаптивної таблиці додайте контейнер (такий як div) з <strong>overflow-x:auto</strong> навколо елемента таблиці:</p>
+
+<div style="overflow-x: auto;">
+  <table class="responsive-table">
+    <tr>
+      <th>Ім'я</th>
+      <th>Прізвище</th>
+      <th>Очки</th>
+      <th>Очки</th>
+      <th>Очки</th>
+      <th>Очки</th>
+      <th>Очки</th>
+      <th>Очки</th>
+      <th>Очки</th>
+      <th>Очки</th>
+      <th>Очки</th>
+      <th>Очки</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+    </tr>
+  </table>
+</div>
+<a href="квадрат.html">Анімований квадрат.html</a>
+
+<link rel="stylesheet" href="styles.css"> <!-- Підключаємо CSS файл -->
+</head>
+<body style="text-align:center;">
+
+<h2>Left Tooltip w/ Right Arrow</h2>
+
+<div class="tooltip">Hover over me
+  <span class="tooltiptext">Tooltip text</span>
+</div>
+<h2>CSS Buttons</h2>
+<button>Default Button</button>
+<a href="#" class="button">Link Button</a>
+<button class="button">Button</button>
+<input type="button" class="button" value="Input Button">
+<h2>Rounded Buttons</h2>
+
+<p>Add rounded corners to a button with the border-radius property:</p>
+
+<button class="button button1">2px</button>
+<button class="button button2">4px</button>
+<button class="button button3">8px</button>
+<button class="button button4">12px</button>
+<button class="button button5">50%</button>
+<h2>Hoverable Buttons</h2>
+
+<p>Use the :hover selector to change the style of the button when you move the mouse over it.</p>
+<p><strong>Tip:</strong> Use the transition-duration property to determine the speed of the "hover" effect:</p>
+
+<button class="button button1">Green</button>
+<button class="button button2">Blue</button>
+<button class="button button3">Red</button>
+<button class="button button4">Gray</button>
+<button class="button button5">Black</button>
+<h2>Set Button Widths</h2>
+
+<p>Use the width property to change the width of the button:</p>
+
+<button class="button button1">250px</button><br>
+<button class="button button2">50%</button><br>
+<button class="button button3">100%</button>
+
+<p><strong>Tip:</strong> Use pixels if you want to set a fixed width and use percent for responsive buttons (e.g. 50% of its parent element). Resize the browser window to see the effect.</p>
+<h2>Vertical Button Group</h2>
+
+<div class="btn-group">
+  <button class="button">Button</button>
+  <button class="button">Button</button>
+  <button class="button">Button</button>
+  <button class="button">Button</button>
+</div>
+<h2>Simple Pagination</h2>
+
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>
+<h2>Transition Effect on Hover</h2>
+
+<p>Move the mouse over the numbers.</p>
+
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#" class="active">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>
+<a href="keyword.html">keyword.html</a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Shadow Example</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Підключаємо CSS файл -->
+</head>
+<body>
+
+<h1>The box-shadow Property</h1>
+
+<div>This is a div element with a box-shadow</div>
+<a href="box-shadow.html">box.html</a>
+<a href="card.html">card.html</a>
+<a href="property.html">property.html</a>
+<a href="property1.html">property1.html</a>
+<h2>CSS Text Effects</h2>
+<a href="property2.html">The text-overflow Property</a>
 </body>
 </html>
 
