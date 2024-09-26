@@ -1,39 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Самостійні роботи</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <style>
-       
-        table {
-            width: 100%;
-            border-collapse: collapse; 
-            margin-bottom: 20px; 
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Styling Examples</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Підключаємо CSS файл -->
+  <style>
+    /* Додайте стилі для таблиць, кнопок та інших елементів тут */
+    .centered-table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 80%;
+    }
+    
+    .bordered-table, .striped-table, .responsive-table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      width: 80%;
+      margin: 0 auto;
+    }
+    
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left; /* Змініть на 'center' або 'right' за потреби */
+    }
+    
+    .striped-table tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
 
-        th, td {
-            padding: 12px; 
-            text-align: left; 
-            border-bottom: 1px solid #ddd;
-        }
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+    }
 
-        th {
-            background-color: #f2f2f2; 
-            font-weight: bold; 
-        }
+    .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 5px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 100%; /* Позиція над елементом */
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
 
-        tr:hover {
-            background-color: #f5f5f5; 
-        }
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
 
-        caption {
-            font-size: 1.2em;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-    </style>
+    .button {
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    .button1 { background-color: green; }
+    .button2 { background-color: blue; }
+    .button3 { background-color: red; }
+    .button4 { background-color: gray; }
+    .button5 { background-color: black; color: white; }
+
+    .btn-group button {
+      display: block;
+      margin: 5px auto;
+    }
+
+    .pagination {
+      display: inline-block;
+      padding: 10px;
+    }
+
+    .pagination a {
+      margin: 0 5px;
+      padding: 8px 16px;
+      border: 1px solid #ccc;
+      text-decoration: none;
+      color: black;
+    }
+
+    .pagination a.active {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .pagination a:hover {
+      background-color: #ddd;
+    }
+
+    .responsive-table {
+      overflow-x: auto;
+      display: block;
+    }
+
+    .box-shadow {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      margin: 20px;
+    }
+  </style>
 </head>
 <body>
     <h1>Самостійна робота №1</h1>
@@ -667,11 +742,6 @@
     <input type="email" id="email" name="email"><br><br>
     <input type="submit" value="Відправити">
   </form>
-  <title>Самостійна робота 2</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
   <h2>Самостійна робота 2</h2>
   <h3>CSS Синтаксис</h3>
   <p>Hello World!</p>

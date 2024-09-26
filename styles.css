@@ -22,12 +22,6 @@ p.special-paragraph {
     color: blue; /* Змінюємо колір для параграфа #para1 */
 }
 
-/* Стиль для заголовків з класом "special-header" */
-h1.special-header, h2.special-header {
-    text-align: center;
-    color: black; /* Заголовки чорного кольору */
-    background-color: green; /* Фон тільки для спеціальних заголовків */
-}
 
 /* Стиль для тіла з класом "special-body" */
 .special-body {
